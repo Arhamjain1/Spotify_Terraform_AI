@@ -1,6 +1,6 @@
-# Spotify + Terraform + AI — Automated Playlist Pipeline
+# Spotify + Terraform + AI - Automated Playlist Pipeline
 
-A local, end-to-end pipeline that turns AI playlist ideas into *real* Spotify playlists — reproducibly and version-controlled with Terraform.
+A local, end-to-end pipeline that turns AI playlist ideas into *real* Spotify playlists reproducibly and version-controlled with Terraform.
 
 This README is a complete. It includes everything you need: setup, how the pipeline works, exact commands for PowerShell and bash, safe environment handling, Terraform snippets, troubleshooting checks (echo commands), and tips to avoid the common pitfalls we fixed while building the project.
 
