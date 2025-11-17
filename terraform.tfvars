@@ -1,1 +1,1 @@
-api_key="P52ElCRAd_Cum-kxzifjMFqU1fxjvuKFeedwIAIJWN2jBrti7_IKWI3JNRBeS0ML"
+api_key="YOUR_API_KEY"
