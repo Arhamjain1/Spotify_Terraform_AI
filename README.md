@@ -116,7 +116,7 @@ bash:
 
 ```bash
 export SPOTIFY_CLIENT_ID=CLIENT_ID
-export SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+export SPOTIFY_CLIENT_SECRET=CLIENT_SECRET
 echo $SPOTIFY_CLIENT_ID
 ```
 
@@ -170,7 +170,7 @@ Below are the paste-ready examples for the core files. Replace values where need
 
 ### `ai_curation.py` - super-strict prompt (USE AS-IS IF YOU HAVE GEMINI)
 
-This file exists in your repo already; here is the *super-strict* prompt snippet used by the script:
+This file exists in the repo already; here is the *super-strict* prompt snippet used by the script:
 
 ```python
 prompt = f"""
@@ -196,9 +196,9 @@ Output ONLY valid JSON:
 
 ### `spotify_lookup.py` - resolve to Spotify (title+artist fuzzy matching)
 
-A robust script that reads `playlist_songs.json`, obtains a Client Credentials token, queries Spotify, and writes `spotify_results.json`. Ensure your copy converts Spotify URLs → URIs or includes `spotify_url` in output.
+A script that reads `playlist_songs.json`, obtains a Client Credentials token, queries Spotify, and writes `spotify_results.json`. Ensure your copy converts Spotify URLs → URIs or includes `spotify_url` in output.
 
-(You already have this in your repo; keep it; it should output `spotify_url` for each match.)
+(Already there in the repo; keep it; it should output `spotify_url` for each match.)
 
 ---
 
@@ -426,31 +426,3 @@ terraform init
 **macOS / Linux:** copy into `~/.terraform.d/plugins/registry.terraform.io/conradludgate/spotify/1.0.0/<os_arch>/`
 
 ---
-
-## Security, best practices & next steps
-
-* **Never commit `.env`**. Add `.env` to `.gitignore`.
-* **Use the SUPER-STRICT LLM prompt** to reduce hallucinations, but always validate via Spotify API.
-* **Cache Spotify lookups** during development to minimize API calls/limits.
-* **Review `terraform plan`** - Terraform will show exactly what will be added to your Spotify account.
-* **Next steps**:
-
-  * Add audio-feature re-ranking (use Spotify audio-features API).
-  * Generate playlist cover art (image model) and attach if provider supports it.
-  * Build a small web UI to preview & approve before applying.
-
----
-
-## License
-
-MIT License - copy into `LICENSE` if you want to make it explicit.
-
----
-
-If you’d like, I will:
-
-* paste this exact content to a `README.md` file in your repo (I can provide the file content for you to save), or
-* create a `run_all.ps1` and `run_all.sh` implementation in your repo, or
-* produce the exact `provider.tf`, `variables.tf`, `playlist.tf` filled-in for your current provider version.
-
-Which would you like next?
