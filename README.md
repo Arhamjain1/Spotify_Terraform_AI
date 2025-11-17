@@ -4,8 +4,8 @@ A local, end-to-end pipeline that turns AI playlist ideas into *real* Spotify pl
 
 This README is a complete. It includes everything you need: setup, how the pipeline works, exact commands for PowerShell and bash, safe environment handling, Terraform snippets, troubleshooting checks (echo commands), and tips to avoid the common pitfalls we fixed while building the project.
 
-NOTE:- Before using this repoistory it is advised you refer to https://github.com/Arhamjain1/spotify_terraform to understand how spotify and terraform are working.
-
+**NOTE:- Before using this repoistory it is advised you refer to https://github.com/Arhamjain1/spotify_terraform to understand how spotify and terraform are working.
+**
 ---
 
 ## Table of contents
