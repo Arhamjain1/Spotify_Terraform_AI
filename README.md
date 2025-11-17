@@ -22,7 +22,7 @@ This README is a complete. It includes everything you need: setup, how the pipel
   * `playlist.tf` / `provider.tf` / `variables.tf` (Terraform)
 * [Run helpers (optional)](#run-helpers-optional)
 * [Troubleshooting checklist & quick commands](#troubleshooting-checklist--quick-commands)
-* [Advanced notes — local provider binary](#advanced-notes--local-provider-binary)
+* [Advanced notes local provider binary](#advanced-notes--local-provider-binary)
 * [Security, best practices & next steps](#security-best-practices--next-steps)
 * [License](#license)
 
@@ -35,7 +35,7 @@ This README is a complete. It includes everything you need: setup, how the pipel
 * Converts matched Spotify results into Terraform-friendly data (URIs like `spotify:track:...`) (`generated_tracks.tf`).
 * Uses Terraform with the Spotify provider to create/update a playlist and add tracks in your Spotify account.
 
-Everything runs locally — no cloud required — and is reproducible via Git + Terraform.
+Everything runs locally no cloud required and is reproducible via Git + Terraform.
 
 ---
 
@@ -70,7 +70,7 @@ Spotify_TF/
 
 * Python 3.10+
 * Terraform 1.3+
-* A Spotify Developer App (Client ID & Client Secret) — [https://developer.spotify.com/dashboard](https://developer.spotify.com/dashboard)
+* A Spotify Developer App (Client ID & Client Secret) - [https://developer.spotify.com/dashboard](https://developer.spotify.com/dashboard)
 * (Optional) Google Gemini API key for AI step
 * Python packages:
 
@@ -120,7 +120,7 @@ export SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 echo $SPOTIFY_CLIENT_ID
 ```
 
-3. **(Optional) Put provider binary** (only if using a local provider binary) — see the Advanced section below.
+3. **(Optional) Put provider binary** (only if using a local provider binary) - see the Advanced section below.
 
 ---
 
@@ -168,7 +168,7 @@ Below are the paste-ready examples for the core files. Replace values where need
 
 ---
 
-### `ai_curation.py` — super-strict prompt (USE AS-IS IF YOU HAVE GEMINI)
+### `ai_curation.py` - super-strict prompt (USE AS-IS IF YOU HAVE GEMINI)
 
 This file exists in your repo already; here is the *super-strict* prompt snippet used by the script:
 
@@ -194,7 +194,7 @@ Output ONLY valid JSON:
 
 ---
 
-### `spotify_lookup.py` — resolve to Spotify (title+artist fuzzy matching)
+### `spotify_lookup.py` - resolve to Spotify (title+artist fuzzy matching)
 
 A robust script that reads `playlist_songs.json`, obtains a Client Credentials token, queries Spotify, and writes `spotify_results.json`. Ensure your copy converts Spotify URLs → URIs or includes `spotify_url` in output.
 
@@ -202,7 +202,7 @@ A robust script that reads `playlist_songs.json`, obtains a Client Credentials t
 
 ---
 
-### `generate_tf.py` — convert search results to Terraform locals
+### `generate_tf.py` - convert search results to Terraform locals
 
 This converts `spotify_results.json` into `generated_tracks.tf` (a `locals` block). Use the version that converts URLs into `spotify:track:ID` and writes a `local.generated_tracks` list:
 
@@ -248,7 +248,7 @@ variable "api_key" {
 }
 ```
 
-### `playlist.tf` — create playlist + attach tracks
+### `playlist.tf` - create playlist + attach tracks
 
 This example expects `local.generated_tracks` (from `generated_tracks.tf`).
 
@@ -408,7 +408,7 @@ sed -n '1,200p' generated_tracks.tf
 
 ---
 
-## Advanced notes — local provider binary
+## Advanced notes - local provider binary
 
 If you downloaded a local provider (custom binary), Terraform expects it under the plugins directory:
 
@@ -432,7 +432,7 @@ terraform init
 * **Never commit `.env`**. Add `.env` to `.gitignore`.
 * **Use the SUPER-STRICT LLM prompt** to reduce hallucinations, but always validate via Spotify API.
 * **Cache Spotify lookups** during development to minimize API calls/limits.
-* **Review `terraform plan`** — Terraform will show exactly what will be added to your Spotify account.
+* **Review `terraform plan`** - Terraform will show exactly what will be added to your Spotify account.
 * **Next steps**:
 
   * Add audio-feature re-ranking (use Spotify audio-features API).
@@ -443,7 +443,7 @@ terraform init
 
 ## License
 
-MIT License — copy into `LICENSE` if you want to make it explicit.
+MIT License - copy into `LICENSE` if you want to make it explicit.
 
 ---
 
