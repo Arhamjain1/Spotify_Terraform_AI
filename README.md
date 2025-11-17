@@ -115,7 +115,7 @@ echo $env:SPOTIFY_CLIENT_SECRET
 bash:
 
 ```bash
-export SPOTIFY_CLIENT_ID=25a0830e5df345b896983f27a024effa
+export SPOTIFY_CLIENT_ID=CLIENT_ID
 export SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 echo $SPOTIFY_CLIENT_ID
 ```
