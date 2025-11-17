@@ -1,0 +1,275 @@
+{
+  "retain_old_tracks": false,
+  "songs": [
+    {
+      "input_title": "Dil Ibaadat",
+      "input_artist": "KK",
+      "matched_title": "Dil Ibaadat",
+      "matched_artist": "Pritam",
+      "spotify_url": "https://open.spotify.com/track/3Kl8p2PxVf8eAayLwTxOIm",
+      "preview_url": null,
+      "match_score": 70.0
+    },
+    {
+      "input_title": "Zara Si Dil Mein De Jagah Tu",
+      "input_artist": "KK",
+      "matched_title": "Zara Sa - Lofi Flip",
+      "matched_artist": "KSW",
+      "spotify_url": "https://open.spotify.com/track/4uZnwiu2fnfTKWn8zt6XZx",
+      "preview_url": null,
+      "match_score": 38.81
+    },
+    {
+      "input_title": "Tadap Tadap Ke Is Dil Se",
+      "input_artist": "KK",
+      "matched_title": "Tadap Tadap",
+      "matched_artist": "KK",
+      "spotify_url": "https://open.spotify.com/track/6n6hEYHXBzWfdSzBX20ZRw",
+      "preview_url": null,
+      "match_score": 74.0
+    },
+    {
+      "input_title": "Aankhon Mein Teri",
+      "input_artist": "KK",
+      "matched_title": "Aankhon Mein Teri (Remix)",
+      "matched_artist": "KK",
+      "spotify_url": "https://open.spotify.com/track/27SAeCms6XAVJMcki0GpPV",
+      "preview_url": null,
+      "match_score": 86.67
+    },
+    {
+      "input_title": "Khuda Jane",
+      "input_artist": "KK",
+      "matched_title": "Khuda Jaane",
+      "matched_artist": "Vishal-Shekhar",
+      "spotify_url": "https://open.spotify.com/track/0gPgdRfB4jdGrlyXS0Vx78",
+      "preview_url": null,
+      "match_score": 70.42
+    },
+    {
+      "input_title": "Yaaron Dosti",
+      "input_artist": "KK",
+      "matched_title": "Yaaron",
+      "matched_artist": "KK",
+      "spotify_url": "https://open.spotify.com/track/0zFG3RWjka7dNRIRTWnXMN",
+      "preview_url": null,
+      "match_score": 76.67
+    },
+    {
+      "input_title": "Maine Dil Se Kaha",
+      "input_artist": "KK",
+      "matched_title": "Maine Dil Se Kaha",
+      "matched_artist": "KK",
+      "spotify_url": "https://open.spotify.com/track/0dZjWF8uklfNUHiPS2vC6E",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Sach Keh Raha Hai Deewana",
+      "input_artist": "KK",
+      "matched_title": "Such Keh Raha Hai",
+      "matched_artist": "KK",
+      "spotify_url": "https://open.spotify.com/track/0ypgFw67lNEpoKFUxUV0tG",
+      "preview_url": null,
+      "match_score": 83.33
+    },
+    {
+      "input_title": "Tu Aashiqui Hai",
+      "input_artist": "KK",
+      "matched_title": "Tu Aashiqui Hai",
+      "matched_artist": "Vishal-Shekhar",
+      "spotify_url": "https://open.spotify.com/track/2vuhZrEHS25D8xNQTSvuuj",
+      "preview_url": null,
+      "match_score": 73.75
+    },
+    {
+      "input_title": "O Meri Jaan",
+      "input_artist": "KK",
+      "matched_title": "O Meri Jaan",
+      "matched_artist": "KK",
+      "spotify_url": "https://open.spotify.com/track/2xPgLSozcGeM6rQi5eIWmY",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Labon Ko",
+      "input_artist": "KK",
+      "matched_title": "Labon Ko",
+      "matched_artist": "Pritam",
+      "spotify_url": "https://open.spotify.com/track/5WncH5iZ5GFlnXm7jKEXVP",
+      "preview_url": null,
+      "match_score": 70.0
+    },
+    {
+      "input_title": "Alvida",
+      "input_artist": "KK",
+      "matched_title": "Alvida",
+      "matched_artist": "KALAM INK",
+      "spotify_url": "https://open.spotify.com/track/0MzimbGlnX7GS2lRuD5eTT",
+      "preview_url": null,
+      "match_score": 80.91
+    },
+    {
+      "input_title": "Piya Aaye Na",
+      "input_artist": "KK",
+      "matched_title": "Piya Aaye Na",
+      "matched_artist": "Tulsi Kumar",
+      "spotify_url": "https://open.spotify.com/track/1ELMyeJLDHUz3cK3XTWgEi",
+      "preview_url": null,
+      "match_score": 74.62
+    },
+    {
+      "input_title": "Hai Junoon",
+      "input_artist": "KK",
+      "matched_title": "Hai Junoon",
+      "matched_artist": "Pritam",
+      "spotify_url": "https://open.spotify.com/track/5u4q3iqZ9IMbXaR7bsGYbW",
+      "preview_url": null,
+      "match_score": 70.0
+    },
+    {
+      "input_title": "It's The Time To Disco",
+      "input_artist": "KK",
+      "matched_title": "It's the Time to Disco",
+      "matched_artist": "Shankar-Ehsaan-Loy",
+      "spotify_url": "https://open.spotify.com/track/3hCUkos0NxuSFl73oOHJzb",
+      "preview_url": null,
+      "match_score": 73.0
+    },
+    {
+      "input_title": "Happy",
+      "input_artist": "Pharrell Williams",
+      "matched_title": "Happy",
+      "matched_artist": "Pancho Beats",
+      "spotify_url": "https://open.spotify.com/track/7d1Nv6JhNVSrUKwCX8PYym",
+      "preview_url": null,
+      "match_score": 78.28
+    },
+    {
+      "input_title": "Walking on Sunshine",
+      "input_artist": "Katrina & The Waves",
+      "matched_title": "Walking On Sunshine",
+      "matched_artist": "Katrina & The Waves",
+      "spotify_url": "https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Don't Stop Me Now",
+      "input_artist": "Queen",
+      "matched_title": "Don't Stop Me Now",
+      "matched_artist": "Queen",
+      "spotify_url": "https://open.spotify.com/track/0DrDcqWpokMlhKYJSwoT4B",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "September",
+      "input_artist": "Earth, Wind & Fire",
+      "matched_title": "September",
+      "matched_artist": "Earth, Wind & Fire",
+      "spotify_url": "https://open.spotify.com/track/2grjqo0Frpf2okIBiifQKs",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Uptown Funk",
+      "input_artist": "Mark Ronson",
+      "matched_title": "Uptown Funk",
+      "matched_artist": "Mark Ronson",
+      "spotify_url": "https://open.spotify.com/track/4rmFRTmHa2bWUmMLIRVEXQ",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Good as Hell",
+      "input_artist": "Lizzo",
+      "matched_title": "Good as Hell",
+      "matched_artist": "Lizzo",
+      "spotify_url": "https://open.spotify.com/track/6KgBpzTuTRPebChN0VTyzV",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "I Want You Back",
+      "input_artist": "The Jackson 5",
+      "matched_title": "I Want You Back",
+      "matched_artist": "The Jackson 5",
+      "spotify_url": "https://open.spotify.com/track/5LxvwujISqiB8vpRYv887S",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Dancing Queen",
+      "input_artist": "ABBA",
+      "matched_title": "Dancing Queen",
+      "matched_artist": "ABBA",
+      "spotify_url": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Hey Ya!",
+      "input_artist": "Outkast",
+      "matched_title": "Hey Ya!",
+      "matched_artist": "Outkast",
+      "spotify_url": "https://open.spotify.com/track/2PpruBYCo4H7WOBJ7Q2EwM",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Can't Stop the Feeling!",
+      "input_artist": "Justin Timberlake",
+      "matched_title": "CAN'T STOP THE FEELING! - Film Version",
+      "matched_artist": "Justin Timberlake",
+      "spotify_url": "https://open.spotify.com/track/4sQmCQUZcnBPaVm4dEUKv7",
+      "preview_url": null,
+      "match_score": 82.79
+    },
+    {
+      "input_title": "Shake It Off",
+      "input_artist": "Taylor Swift",
+      "matched_title": "Shake It Off",
+      "matched_artist": "Taylor Swift",
+      "spotify_url": "https://open.spotify.com/track/0cqRj7pUJDkTCEsJkx8snD",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Dynamite",
+      "input_artist": "BTS",
+      "matched_title": "Dynamite",
+      "matched_artist": "BTS",
+      "spotify_url": "https://open.spotify.com/track/72IwoG8tqvIWV10IHjpNNA",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Sugar",
+      "input_artist": "Maroon 5",
+      "matched_title": "Sugar",
+      "matched_artist": "Maroon 5",
+      "spotify_url": "https://open.spotify.com/track/5d6Mjuu2uCGRPYpFjGpCX5",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Treasure",
+      "input_artist": "Bruno Mars",
+      "matched_title": "Treasure",
+      "matched_artist": "Bruno Mars",
+      "spotify_url": "https://open.spotify.com/track/55h7vJchibLdUkxdlX3fK7",
+      "preview_url": null,
+      "match_score": 100.0
+    },
+    {
+      "input_title": "Rude",
+      "input_artist": "MAGIC!",
+      "matched_title": "Rude",
+      "matched_artist": "MAGIC!",
+      "spotify_url": "https://open.spotify.com/track/6RtPijgfPKROxEzTHNRiDp",
+      "preview_url": null,
+      "match_score": 100.0
+    }
+  ]
+}
