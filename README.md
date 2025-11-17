@@ -99,8 +99,8 @@ pip install requests python-dotenv rapidfuzz google-genai
 
 ```text
 GEMINI_API_KEY=your_gemini_api_key_here     # optional
-SPOTIFY_CLIENT_ID=25a0830e5df345b896983f27a024effa
-SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+SPOTIFY_CLIENT_ID=CLIENT_ID
+SPOTIFY_CLIENT_SECRET=CLIENT_SECRET
 ```
 
 2. **Verify environment variables**
